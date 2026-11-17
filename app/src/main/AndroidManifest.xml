@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_school"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_school"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ClassAttendanceRegister">
+
+        <!-- Entry Splash / Welcome Activity -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Faculty Login Activity -->
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false"
+            android:label="@string/title_login"
+            android:parentActivityName=".MainActivity" />
+
+        <!-- Faculty Registration Activity -->
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false"
+            android:label="@string/title_register"
+            android:parentActivityName=".LoginActivity" />
+
+        <!-- Dashboard Activity -->
+        <activity
+            android:name=".DashboardActivity"
+            android:exported="false"
+            android:label="Faculty Dashboard" />
+
+        <!-- Select Class Activity -->
+        <activity
+            android:name=".SelectClassActivity"
+            android:exported="false"
+            android:label="@string/title_select_class"
+            android:parentActivityName=".DashboardActivity" />
+
+        <!-- Mark Attendance Activity (Main Screen) -->
+        <activity
+            android:name=".AttendanceActivity"
+            android:exported="false"
+            android:label="@string/title_mark_attendance"
+            android:parentActivityName=".SelectClassActivity" />
+
+        <!-- Attendance Report Activity -->
+        <activity
+            android:name=".ReportActivity"
+            android:exported="false"
+            android:label="@string/title_reports"
+            android:parentActivityName=".DashboardActivity" />
+
+        <!-- Student Management Activity -->
+        <activity
+            android:name=".StudentManagementActivity"
+            android:exported="false"
+            android:label="@string/title_student_management"
+            android:parentActivityName=".DashboardActivity" />
+
+        <!-- Subject Management Activity (Semester-Wise) -->
+        <activity
+            android:name=".SubjectManagementActivity"
+            android:exported="false"
+            android:label="Subject Management"
+            android:parentActivityName=".DashboardActivity" />
+
+    </application>
+
+</manifest>

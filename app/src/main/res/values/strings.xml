@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">Class Attendance Register</string>
+
+    <!-- Authentication -->
+    <string name="title_login">Faculty Login</string>
+    <string name="subtitle_login">Sign in with your Faculty credentials</string>
+    <string name="title_register">Faculty Registration</string>
+    <string name="subtitle_register">Create an account for attendance management</string>
+    <string name="hint_faculty_name">Faculty Name</string>
+    <string name="hint_faculty_id">Faculty ID (e.g. FAC01)</string>
+    <string name="hint_email">Email Address</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_register">Register</string>
+    <string name="prompt_no_account">Don\'t have an account? Register here</string>
+    <string name="prompt_have_account">Already registered? Login here</string>
+
+    <!-- Dashboard -->
+    <string name="welcome_faculty">Welcome, %1$s</string>
+    <string name="dashboard_subtitle">Class Attendance Management System</string>
+    <string name="btn_mark_attendance">Mark Attendance</string>
+    <string name="btn_attendance_reports">Attendance Reports</string>
+    <string name="btn_manage_students">Manage Students</string>
+    <string name="btn_logout">Logout</string>
+
+    <!-- Class Selection -->
+    <string name="title_select_class">Select Class Session</string>
+    <string name="label_select_subject">Select Subject</string>
+    <string name="label_select_section">Select Section</string>
+    <string name="label_select_date">Select Date</string>
+    <string name="label_select_period">Select Period</string>
+    <string name="btn_proceed_attendance">Proceed to Mark Attendance</string>
+
+    <!-- Mark Attendance -->
+    <string name="title_mark_attendance">Mark Attendance</string>
+    <string name="btn_mark_all_present">Mark All Present</string>
+    <string name="btn_clear_all">Clear All (Absent)</string>
+    <string name="btn_save_attendance">Save Attendance</string>
+    <string name="stat_total">Total: %1$d</string>
+    <string name="stat_present">Present: %1$d</string>
+    <string name="stat_absent">Absent: %1$d</string>
+
+    <!-- Reports -->
+    <string name="title_reports">Attendance Reports</string>
+    <string name="filter_subject">Subject:</string>
+    <string name="filter_section">Section:</string>
+    <string name="summary_total_students">Total: %1$d</string>
+    <string name="summary_eligible">Eligible (&gt;=75%%): %1$d</string>
+    <string name="summary_shortage">Shortage (&lt;75%%): %1$d</string>
+    <string name="badge_eligible">ELIGIBLE</string>
+    <string name="badge_shortage">SHORTAGE (&lt;75%)</string>
+
+    <!-- Student Management -->
+    <string name="title_student_management">Student Management</string>
+    <string name="btn_add_student">+ Add Student</string>
+    <string name="hint_search_student">Search by Name or Reg No...</string>
+    <string name="hint_reg_no">Register Number (e.g. 21BCA01)</string>
+    <string name="hint_student_name">Student Full Name</string>
+    <string name="hint_student_section">Section (e.g. BCA A)</string>
+    <string name="dialog_add_student">Add New Student</string>
+    <string name="dialog_edit_student">Edit Student Details</string>
+
+    <!-- Common Actions -->
+    <string name="action_save">Save</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_ok">OK</string>
+    <string name="action_confirm">Confirm</string>
+</resources>
